@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'mysql:host=localhost;dbname=mississippi';
+$dsn = 'mysql:host=localhost;dbname=oneclick';
 $username = 'root';
 $password = '';
     try {

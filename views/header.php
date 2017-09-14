@@ -4,18 +4,18 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css"
-          href="/websitei-team2/Style.css">
+          href="./Style.css">
 </head>
 <body>
         
         <div id="wrapper">
 
             <header>
-                <h1>Mississippi</h1><br><br>
+                <h1>Mississippi</h1>
                 <div id="user">
                     
-                <?php if ($_SESSION['user'] != 'unk'): ?>
-                    <a href="?action=profile"><?php echo htmlspecialchars($_SESSION['userName']); ?></a>
+                <?php if (isset($_SESSION['userInfo'])): ?>
+                    <a href="?action=profile"><?php echo htmlspecialchars($_SESSION['userInfo']['userName']); ?></a>
                   
                 <?php else:?>
                     

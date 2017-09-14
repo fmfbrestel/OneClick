@@ -1,8 +1,10 @@
-<?php
+<?php include ('header.php');?>
+    
+<main>
+    <br><br><br>
+    <p>Thank you for your order.</p>
+    <a href="./index.php">Continue Shopping</a>
+    <br><br><br>
+</main>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<?php include ('footer.php');?>
